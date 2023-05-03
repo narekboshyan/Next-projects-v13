@@ -1,5 +1,5 @@
 import Header from "@/components/organisms/Header";
-import Providers from "./providers";
+import Providers from "@/app/providers";
 
 import "./globals.css";
 import Navbar from "@/components/organisms/Navbar";
