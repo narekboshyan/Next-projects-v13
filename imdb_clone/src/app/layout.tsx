@@ -3,6 +3,7 @@ import Providers from "@/app/providers";
 
 import "./globals.css";
 import Navbar from "@/components/organisms/Navbar";
+import SearchBar from "@/components/atoms/SearchBar";
 
 export const metadata = {
  title: "Create Next App",
@@ -23,7 +24,7 @@ export default function RootLayout({
     <Providers>
      <Header />
      <Navbar />
-     {/* SearchBox */}
+     <SearchBar />
      {children}
     </Providers>
    </body>
